@@ -1,0 +1,7 @@
+{"time":"2025-03-13T02:42:26.135745-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Kang\\Learning\\25Spring_dl\\Project1\\wandb\\run-20250313_024226-wv66dxsu\\logs\\debug-core.log"}
+{"time":"2025-03-13T02:42:26.2477467-04:00","level":"INFO","msg":"created new stream","id":"wv66dxsu"}
+{"time":"2025-03-13T02:42:26.2479105-04:00","level":"INFO","msg":"stream: started","id":"wv66dxsu"}
+{"time":"2025-03-13T02:42:26.2479105-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"wv66dxsu"}
+{"time":"2025-03-13T02:42:26.2479105-04:00","level":"INFO","msg":"sender: started","stream_id":"wv66dxsu"}
+{"time":"2025-03-13T02:42:26.2479105-04:00","level":"INFO","msg":"handler: started","stream_id":"wv66dxsu"}
+{"time":"2025-03-13T02:42:26.4130419-04:00","level":"INFO","msg":"Starting system monitor"}

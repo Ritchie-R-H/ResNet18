@@ -1,0 +1,15 @@
+{"time":"2025-03-13T00:20:05.7920076-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Kang\\Learning\\25Spring_dl\\Project1\\wandb\\run-20250313_002005-eycf6lec\\logs\\debug-core.log"}
+{"time":"2025-03-13T00:20:05.9036018-04:00","level":"INFO","msg":"created new stream","id":"eycf6lec"}
+{"time":"2025-03-13T00:20:05.9036018-04:00","level":"INFO","msg":"stream: started","id":"eycf6lec"}
+{"time":"2025-03-13T00:20:05.9036018-04:00","level":"INFO","msg":"handler: started","stream_id":"eycf6lec"}
+{"time":"2025-03-13T00:20:05.9036018-04:00","level":"INFO","msg":"sender: started","stream_id":"eycf6lec"}
+{"time":"2025-03-13T00:20:05.9036018-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"eycf6lec"}
+{"time":"2025-03-13T00:20:06.0696709-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-13T00:20:38.3821709-04:00","level":"INFO","msg":"stream: closing","id":"eycf6lec"}
+{"time":"2025-03-13T00:20:38.3821709-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-13T00:20:38.3828598-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-13T00:20:38.7106988-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-13T00:20:38.8555559-04:00","level":"INFO","msg":"handler: closed","stream_id":"eycf6lec"}
+{"time":"2025-03-13T00:20:38.8555559-04:00","level":"INFO","msg":"sender: closed","stream_id":"eycf6lec"}
+{"time":"2025-03-13T00:20:38.8555559-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"eycf6lec"}
+{"time":"2025-03-13T00:20:38.8561431-04:00","level":"INFO","msg":"stream: closed","id":"eycf6lec"}

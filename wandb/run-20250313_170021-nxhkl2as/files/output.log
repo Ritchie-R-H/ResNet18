@@ -1,0 +1,16 @@
+Loading data...
+Data loaded successfully.
+Loading model...
+Traceback (most recent call last):
+  File "c:\Users\Kang\Learning\25Spring_dl\tmp\25SpringDL_Projects\train.py", line 221, in <module>
+    train_model()
+  File "c:\Users\Kang\Learning\25Spring_dl\tmp\25SpringDL_Projects\train.py", line 43, in train_model
+    model = CustomResNet()
+            ^^^^^^^^^^^^^^
+  File "c:\Users\Kang\Learning\25Spring_dl\tmp\25SpringDL_Projects\model.py", line 124, in __init__
+    self.layer1 = self._make_layer(32, 32, num_blocks=2, stride=1)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kang\Learning\25Spring_dl\tmp\25SpringDL_Projects\model.py", line 148, in _make_layer
+    layers.append(SEResidualBlock(in_channels, out_channels, stride=stride, downsample=True))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SEResidualBlock.__init__() got an unexpected keyword argument 'downsample'

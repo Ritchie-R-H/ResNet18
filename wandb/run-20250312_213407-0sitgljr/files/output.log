@@ -1,0 +1,161 @@
+Loading data...
+Mean: [0.49261177 0.48097432 0.44712296]
+Std: [0.24925695 0.24605115 0.2630386 ]
+Loaded CIFAR-10: 60000 train, 10000 test samples.
+Data loaded successfully.
+Loading model...
+Model loaded successfully.
+Using device: cuda
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 32, 32, 32]             864
+       BatchNorm2d-2           [-1, 32, 32, 32]              64
+              SiLU-3           [-1, 32, 32, 32]               0
+            Conv2d-4           [-1, 64, 32, 32]          18,432
+       BatchNorm2d-5           [-1, 64, 32, 32]             128
+            Conv2d-6           [-1, 64, 32, 32]          36,864
+           Dropout-7           [-1, 64, 32, 32]               0
+       BatchNorm2d-8           [-1, 64, 32, 32]             128
+ AdaptiveAvgPool2d-9             [-1, 64, 1, 1]               0
+           Conv1d-10                [-1, 1, 64]               3
+          Sigmoid-11                   [-1, 64]               0
+              ECA-12           [-1, 64, 32, 32]               0
+           Conv2d-13           [-1, 64, 32, 32]           2,048
+      BatchNorm2d-14           [-1, 64, 32, 32]             128
+ ECAResidualBlock-15           [-1, 64, 32, 32]               0
+           Conv2d-16           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-17           [-1, 64, 32, 32]             128
+           Conv2d-18           [-1, 64, 32, 32]          36,864
+          Dropout-19           [-1, 64, 32, 32]               0
+      BatchNorm2d-20           [-1, 64, 32, 32]             128
+AdaptiveAvgPool2d-21             [-1, 64, 1, 1]               0
+           Conv1d-22                [-1, 1, 64]               3
+          Sigmoid-23                   [-1, 64]               0
+              ECA-24           [-1, 64, 32, 32]               0
+ ECAResidualBlock-25           [-1, 64, 32, 32]               0
+           Conv2d-26           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-27           [-1, 64, 32, 32]             128
+           Conv2d-28           [-1, 64, 32, 32]          36,864
+          Dropout-29           [-1, 64, 32, 32]               0
+      BatchNorm2d-30           [-1, 64, 32, 32]             128
+AdaptiveAvgPool2d-31             [-1, 64, 1, 1]               0
+           Conv1d-32                [-1, 1, 64]               3
+          Sigmoid-33                   [-1, 64]               0
+              ECA-34           [-1, 64, 32, 32]               0
+ ECAResidualBlock-35           [-1, 64, 32, 32]               0
+        MaxPool2d-36           [-1, 64, 31, 31]               0
+           Conv2d-37          [-1, 128, 16, 16]          73,728
+      BatchNorm2d-38          [-1, 128, 16, 16]             256
+           Conv2d-39          [-1, 128, 16, 16]         147,456
+          Dropout-40          [-1, 128, 16, 16]               0
+      BatchNorm2d-41          [-1, 128, 16, 16]             256
+AdaptiveAvgPool2d-42            [-1, 128, 1, 1]               0
+           Conv1d-43               [-1, 1, 128]               3
+          Sigmoid-44                  [-1, 128]               0
+              ECA-45          [-1, 128, 16, 16]               0
+           Conv2d-46          [-1, 128, 16, 16]           8,192
+      BatchNorm2d-47          [-1, 128, 16, 16]             256
+ ECAResidualBlock-48          [-1, 128, 16, 16]               0
+           Conv2d-49          [-1, 128, 16, 16]         147,456
+      BatchNorm2d-50          [-1, 128, 16, 16]             256
+           Conv2d-51          [-1, 128, 16, 16]         147,456
+          Dropout-52          [-1, 128, 16, 16]               0
+      BatchNorm2d-53          [-1, 128, 16, 16]             256
+AdaptiveAvgPool2d-54            [-1, 128, 1, 1]               0
+           Conv1d-55               [-1, 1, 128]               3
+          Sigmoid-56                  [-1, 128]               0
+              ECA-57          [-1, 128, 16, 16]               0
+ ECAResidualBlock-58          [-1, 128, 16, 16]               0
+        MaxPool2d-59          [-1, 128, 15, 15]               0
+           Conv2d-60            [-1, 256, 8, 8]         294,912
+      BatchNorm2d-61            [-1, 256, 8, 8]             512
+           Conv2d-62            [-1, 256, 8, 8]         589,824
+          Dropout-63            [-1, 256, 8, 8]               0
+      BatchNorm2d-64            [-1, 256, 8, 8]             512
+AdaptiveAvgPool2d-65            [-1, 256, 1, 1]               0
+           Conv1d-66               [-1, 1, 256]               3
+          Sigmoid-67                  [-1, 256]               0
+              ECA-68            [-1, 256, 8, 8]               0
+           Conv2d-69            [-1, 256, 8, 8]          32,768
+      BatchNorm2d-70            [-1, 256, 8, 8]             512
+ ECAResidualBlock-71            [-1, 256, 8, 8]               0
+        MaxPool2d-72            [-1, 256, 7, 7]               0
+           Conv2d-73            [-1, 480, 4, 4]       1,105,920
+      BatchNorm2d-74            [-1, 480, 4, 4]             960
+           Conv2d-75            [-1, 480, 4, 4]       2,073,600
+          Dropout-76            [-1, 480, 4, 4]               0
+      BatchNorm2d-77            [-1, 480, 4, 4]             960
+AdaptiveAvgPool2d-78            [-1, 480, 1, 1]               0
+           Conv1d-79               [-1, 1, 480]               3
+          Sigmoid-80                  [-1, 480]               0
+              ECA-81            [-1, 480, 4, 4]               0
+           Conv2d-82            [-1, 480, 4, 4]         122,880
+      BatchNorm2d-83            [-1, 480, 4, 4]             960
+ ECAResidualBlock-84            [-1, 480, 4, 4]               0
+AdaptiveAvgPool2d-85            [-1, 480, 1, 1]               0
+           Linear-86                   [-1, 10]           4,810
+================================================================
+Total params: 4,961,343
+Trainable params: 4,961,343
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.01
+Forward/backward pass size (MB): 18.72
+Params size (MB): 18.93
+Estimated Total Size (MB): 37.66
+----------------------------------------------------------------
+                                                                                                                                                                                                                                                         
+Epoch [1/60], Loss: 1.4219, Accuracy: 48.69%
+Test Accuracy: 62.09%
+New best model saved with accuracy 62.09%
+Epoch [2/60], Loss: 0.9587, Accuracy: 65.83%
+Test Accuracy: 72.57%
+New best model saved with accuracy 72.57%
+Epoch [3/60], Loss: 0.7918, Accuracy: 72.41%
+Test Accuracy: 73.72%
+New best model saved with accuracy 73.72%
+Epoch [4/60], Loss: 0.7035, Accuracy: 75.52%
+Test Accuracy: 78.53%
+New best model saved with accuracy 78.53%
+Epoch [5/60], Loss: 0.6656, Accuracy: 76.80%
+Test Accuracy: 76.52%
+Epoch [6/60], Loss: 0.6338, Accuracy: 77.90%
+Test Accuracy: 80.00%
+New best model saved with accuracy 80.00%
+Epoch [7/60], Loss: 0.6119, Accuracy: 78.82%
+Test Accuracy: 80.35%
+New best model saved with accuracy 80.35%
+Epoch [8/60], Loss: 0.6011, Accuracy: 79.00%
+Test Accuracy: 80.21%
+Epoch [9/60], Loss: 0.5779, Accuracy: 79.77%
+Test Accuracy: 80.30%
+Epoch [10/60], Loss: 0.5623, Accuracy: 80.30%
+Test Accuracy: 80.10%
+Epoch [11/60], Loss: 0.5515, Accuracy: 80.88%
+Test Accuracy: 77.41%
+Epoch [12/60], Loss: 0.5375, Accuracy: 81.26%
+Test Accuracy: 76.31%
+Epoch [13/60], Loss: 0.5291, Accuracy: 81.59%
+Test Accuracy: 80.46%
+New best model saved with accuracy 80.46%
+Epoch [14/60], Loss: 0.5159, Accuracy: 82.17%
+Test Accuracy: 80.47%
+New best model saved with accuracy 80.47%
+Epoch [15/60], Loss: 0.5109, Accuracy: 82.32%
+Test Accuracy: 80.21%
+Epoch [16/60], Loss: 0.5026, Accuracy: 82.68%
+Test Accuracy: 80.04%
+Epoch [17/60], Loss: 0.4924, Accuracy: 82.81%
+Test Accuracy: 81.86%
+New best model saved with accuracy 81.86%
+Epoch [18/60], Loss: 0.4853, Accuracy: 83.25%
+Test Accuracy: 84.02%
+New best model saved with accuracy 84.02%
+Epoch [19/60], Loss: 0.4792, Accuracy: 83.41%
+Test Accuracy: 82.87%
+Epoch [20/60], Loss: 0.4654, Accuracy: 83.91%
+Test Accuracy: 85.59%
+New best model saved with accuracy 85.59%
+Early stopping at epoch 19
+Finished Training

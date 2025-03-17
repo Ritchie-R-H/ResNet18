@@ -1,0 +1,9 @@
+{"time":"2025-03-13T01:36:50.635112-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Kang\\Learning\\25Spring_dl\\Project1\\wandb\\run-20250313_013650-l37mlbg5\\logs\\debug-core.log"}
+{"time":"2025-03-13T01:36:50.7502105-04:00","level":"INFO","msg":"created new stream","id":"l37mlbg5"}
+{"time":"2025-03-13T01:36:50.7505105-04:00","level":"INFO","msg":"stream: started","id":"l37mlbg5"}
+{"time":"2025-03-13T01:36:50.7505105-04:00","level":"INFO","msg":"handler: started","stream_id":"l37mlbg5"}
+{"time":"2025-03-13T01:36:50.7507376-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"l37mlbg5"}
+{"time":"2025-03-13T01:36:50.7505105-04:00","level":"INFO","msg":"sender: started","stream_id":"l37mlbg5"}
+{"time":"2025-03-13T01:36:50.9576093-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-13T01:39:06.3971118-04:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/kang3414-new-york-university/your_project_name/l37mlbg5/file_stream"}
+{"time":"2025-03-13T01:39:06.3971118-04:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/kang3414-new-york-university/your_project_name/l37mlbg5/file_stream: {\"error\":\"run your_project_name/l37mlbg5 not found while streaming file\"}"}

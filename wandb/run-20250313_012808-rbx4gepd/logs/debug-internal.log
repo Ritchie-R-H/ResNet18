@@ -1,0 +1,24 @@
+{"time":"2025-03-13T01:28:08.4678434-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Kang\\Learning\\25Spring_dl\\Project1\\wandb\\run-20250313_012808-rbx4gepd\\logs\\debug-core.log"}
+{"time":"2025-03-13T01:28:08.5752749-04:00","level":"INFO","msg":"created new stream","id":"rbx4gepd"}
+{"time":"2025-03-13T01:28:08.5752749-04:00","level":"INFO","msg":"stream: started","id":"rbx4gepd"}
+{"time":"2025-03-13T01:28:08.5752749-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"rbx4gepd"}
+{"time":"2025-03-13T01:28:08.5752749-04:00","level":"INFO","msg":"handler: started","stream_id":"rbx4gepd"}
+{"time":"2025-03-13T01:28:08.5758905-04:00","level":"INFO","msg":"sender: started","stream_id":"rbx4gepd"}
+{"time":"2025-03-13T01:28:08.8424567-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-13T01:35:08.8498752-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}
+{"time":"2025-03-13T01:35:23.8479658-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}
+{"time":"2025-03-13T01:35:38.8501888-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}
+{"time":"2025-03-13T01:35:53.8499555-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}
+{"time":"2025-03-13T01:36:08.849058-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}
+{"time":"2025-03-13T01:36:23.8494097-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}
+{"time":"2025-03-13T01:36:38.8519045-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}
+{"time":"2025-03-13T01:36:53.848896-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}
+{"time":"2025-03-13T01:37:08.8483365-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}
+{"time":"2025-03-13T01:37:23.8495922-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}
+{"time":"2025-03-13T01:37:38.8482537-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}
+{"time":"2025-03-13T01:37:53.8483776-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}
+{"time":"2025-03-13T01:38:08.8514675-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}
+{"time":"2025-03-13T01:38:23.8481795-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}
+{"time":"2025-03-13T01:38:38.8486298-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}
+{"time":"2025-03-13T01:38:53.85259-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}
+{"time":"2025-03-13T01:39:08.8557693-04:00","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 20364"}

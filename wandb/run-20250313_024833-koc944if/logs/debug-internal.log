@@ -1,0 +1,15 @@
+{"time":"2025-03-13T02:48:33.1307388-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Kang\\Learning\\25Spring_dl\\Project1\\wandb\\run-20250313_024833-koc944if\\logs\\debug-core.log"}
+{"time":"2025-03-13T02:48:33.2388833-04:00","level":"INFO","msg":"created new stream","id":"koc944if"}
+{"time":"2025-03-13T02:48:33.2395447-04:00","level":"INFO","msg":"stream: started","id":"koc944if"}
+{"time":"2025-03-13T02:48:33.2395447-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"koc944if"}
+{"time":"2025-03-13T02:48:33.2395447-04:00","level":"INFO","msg":"sender: started","stream_id":"koc944if"}
+{"time":"2025-03-13T02:48:33.2401268-04:00","level":"INFO","msg":"handler: started","stream_id":"koc944if"}
+{"time":"2025-03-13T02:48:33.4662234-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-13T02:48:35.7400348-04:00","level":"INFO","msg":"stream: closing","id":"koc944if"}
+{"time":"2025-03-13T02:48:35.7400348-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-13T02:48:35.7412383-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-13T02:48:36.0801661-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-13T02:48:36.23035-04:00","level":"INFO","msg":"handler: closed","stream_id":"koc944if"}
+{"time":"2025-03-13T02:48:36.23035-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"koc944if"}
+{"time":"2025-03-13T02:48:36.2304281-04:00","level":"INFO","msg":"sender: closed","stream_id":"koc944if"}
+{"time":"2025-03-13T02:48:36.2310573-04:00","level":"INFO","msg":"stream: closed","id":"koc944if"}

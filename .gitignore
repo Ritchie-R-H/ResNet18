@@ -1,0 +1,13 @@
+# ignore data files
+/rh/data/
+/data/
+# ignore model parameters
+resnet_cifar.pth
+# ignore pycache
+__pycache__/*
+# ignore images
+kaggle_test_images/
+
+submission (1).csv
+compare.py
+teacher_softmax_outputs.npy

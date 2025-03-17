@@ -1,0 +1,15 @@
+{"time":"2025-03-13T01:03:34.325993-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Kang\\Learning\\25Spring_dl\\Project1\\wandb\\run-20250313_010334-oudnp24a\\logs\\debug-core.log"}
+{"time":"2025-03-13T01:03:34.4391416-04:00","level":"INFO","msg":"created new stream","id":"oudnp24a"}
+{"time":"2025-03-13T01:03:34.4396544-04:00","level":"INFO","msg":"stream: started","id":"oudnp24a"}
+{"time":"2025-03-13T01:03:34.4398115-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"oudnp24a"}
+{"time":"2025-03-13T01:03:34.4398115-04:00","level":"INFO","msg":"handler: started","stream_id":"oudnp24a"}
+{"time":"2025-03-13T01:03:34.4398115-04:00","level":"INFO","msg":"sender: started","stream_id":"oudnp24a"}
+{"time":"2025-03-13T01:03:34.6557629-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-13T01:03:37.0180024-04:00","level":"INFO","msg":"stream: closing","id":"oudnp24a"}
+{"time":"2025-03-13T01:03:37.0180024-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-13T01:03:37.0205628-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-13T01:03:37.3644513-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-13T01:03:37.5230007-04:00","level":"INFO","msg":"handler: closed","stream_id":"oudnp24a"}
+{"time":"2025-03-13T01:03:37.5230007-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"oudnp24a"}
+{"time":"2025-03-13T01:03:37.5230007-04:00","level":"INFO","msg":"sender: closed","stream_id":"oudnp24a"}
+{"time":"2025-03-13T01:03:37.5242991-04:00","level":"INFO","msg":"stream: closed","id":"oudnp24a"}

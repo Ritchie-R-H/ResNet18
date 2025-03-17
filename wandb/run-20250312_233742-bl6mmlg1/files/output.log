@@ -1,0 +1,37 @@
+Loading data...
+Mean: [0.49261177 0.48097432 0.44712296]
+Std: [0.24925695 0.24605115 0.2630386 ]
+Loaded CIFAR-10: 60000 train, 10000 test samples.
+Data loaded successfully.
+Loading model...
+Model loaded successfully.
+Using device: cuda
+Traceback (most recent call last):
+  File "c:\Users\Kang\Learning\25Spring_dl\Project1\train.py", line 155, in <module>
+    train_model()
+  File "c:\Users\Kang\Learning\25Spring_dl\Project1\train.py", line 44, in train_model
+    summary(model, (3, 32, 32))
+  File "C:\Users\Kang\miniconda3\envs\7773\Lib\site-packages\torchsummary\torchsummary.py", line 72, in summary
+    model(*x)
+  File "C:\Users\Kang\miniconda3\envs\7773\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kang\miniconda3\envs\7773\Lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kang\Learning\25Spring_dl\Project1\model.py", line 166, in forward
+    x = self.fc(x)
+        ^^^^^^^^^^
+  File "C:\Users\Kang\miniconda3\envs\7773\Lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kang\miniconda3\envs\7773\Lib\site-packages\torch\nn\modules\module.py", line 1845, in _call_impl
+    return inner()
+           ^^^^^^^
+  File "C:\Users\Kang\miniconda3\envs\7773\Lib\site-packages\torch\nn\modules\module.py", line 1793, in inner
+    result = forward_call(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kang\miniconda3\envs\7773\Lib\site-packages\torch\nn\modules\linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (2x1920 and 480x10)
